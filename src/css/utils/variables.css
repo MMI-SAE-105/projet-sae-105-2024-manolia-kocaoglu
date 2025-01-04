@@ -1,0 +1,27 @@
+/* Variable collection */
+:root {
+    /* Mode 1 */
+    /* color */
+    --card-blue: #4047601c;
+    --colorbackground-blue: #074e6c;
+    --white-tecxt: #ffffff;
+    --background-blue: #d7e7ff;
+    --black-card: #0000007d;
+    --caroiusel-blue: #0a2735a6;
+    --contact-form: #053a51;
+    --footer-blue: #456e7c;
+    --footer-text: #b5b5b5;
+    --transparent-card: #d7e7ff00;
+    --true-card-blue: #cbd7fe1c;
+  
+
+  --h1: 36px;
+--body-1: 16px;
+--h2: 24px;
+--body-2: 14px;
+--small-text: 11px;
+--body-3: 12px;
+--small-text-footer: 10px;
+--h3: 18px;
+--button: 12px;
+}
