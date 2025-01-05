@@ -22,9 +22,22 @@
 
 .hero__content {
     position: relative;
-    padding: 40px;
-    background: linear-gradient(180deg, rgba(0, 31, 54, 0.6), rgba(0, 31, 54, 1));
+    padding: 0px;
     margin-top: 200px;
+}
+
+.hero__content .hero__title{
+    position: relative;
+    padding: 40px;
+    margin-top: 200px;
+    background: linear-gradient(180deg, rgba(0, 31, 54, 0.6), rgba(0, 31, 54, 1));
+}
+
+.hero__content .hero__description {
+    font-size: var(body-1);
+    margin-bottom: 20px;
+    background-color: var(--colorbackground-blue);
+    padding: 30px;
 }
 
 .hero__title {

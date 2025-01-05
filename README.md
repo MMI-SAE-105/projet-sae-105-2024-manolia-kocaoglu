@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
+- NOM : kocaoglu
+- PRÉNOM : manolia
+- GROUPE : b2
+- URL du site : https://stellular-gumdrop-b6d0e1.netlify.app
 - URL FIGMA :

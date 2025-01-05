@@ -8,7 +8,7 @@ body {
     font-family: frank ruhl libre, sans-serif;
     font-size: var(h1);
     color: #ffffff;
-    background-color: #001f36;
+    background-color: var(--colorbackground-blue);
     line-height: 1.6;
 }
 h1 {

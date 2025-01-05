@@ -1,0 +1,62 @@
+.footer {
+    background-color: var(--caroiusel-blue);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer__section {
+    margin-bottom: 20px;
+}
+
+.footer__title {
+    font-family: "cinzel";
+    font-size: var(--h3);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer__menu,
+.footer__about {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__menu-item,
+.footer__about-item {
+    margin-bottom: 5px;
+}
+
+.footer__menu-item a,
+.footer__about-item a {
+    font-family: "Frank Ruhl Libre";
+    font-size: var(--small-text-footer);
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer__menu-item a:hover,
+.footer__about-item a:hover {
+    color: #0074d9;
+}
+
+.footer__legal {
+    border-top: 1px solid #ffffff;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.footer__legal-text {
+    margin-bottom: 10px;
+}
+
+.footer__credits {
+    font-size: 0.8rem;
+}
+
+.footer__credits-item {
+    margin-bottom: 5px;
+}
