@@ -1,0 +1,42 @@
+.hero__title {
+    font-size: var(--h1);
+    color: var(--white-text);
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.hero__title--home {
+    margin-top: 267px;
+}
+
+.hero__description {
+    color: var(--white-text);
+    font-size: var(--body-1);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: left;
+}
+
+.hero__description--home {
+    margin-top: 357px;
+}
+
+.hero__button--home {
+    margin-top: 70px;
+    border-radius: 12px;
+    background: var(--carrousel-blue);
+    display: flex;
+    padding: 16px 47px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: var(--white-text);
+    font-family: Lato;
+    font-size: var(--body-3);
+    font-weight: 800;
+    line-height: 160%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}

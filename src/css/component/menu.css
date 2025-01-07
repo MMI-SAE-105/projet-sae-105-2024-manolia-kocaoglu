@@ -1,0 +1,98 @@
+.menu {
+    visibility: hidden;
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    background-color: var(--colorbackground-blue); /* A redéfinir */
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 100px;
+    transform: translateX(100vw);
+    transition: all 0.3s ease-in-out;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.menu__list {
+    padding: 0;
+}
+
+.menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.menu__link {
+    color: var(--white-text); /* A redéfinir */
+    text-decoration: none;
+    text-transform: uppercase;
+    /* font-size: 20px; A redéfinir */
+    display: block;
+    /*font-family: ;
+    line-height: 110%;
+    padding-bottom: var(--space4x);
+    font-weight: bold; A redéfinir */}
+
+.menu__item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu-btn {
+    position: relative;
+    width: 24px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.menu-btn__bar {
+    content: "";
+    background: var(--white-text);
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    border-radius: 2px;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+}
+
+.menu-btn__bar::before,
+.menu-btn__bar::after {
+    content: "";
+    background: var(--white-text);
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    border-radius: 2px;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+}
+
+.menu-btn__bar::before {
+    top: -10px;
+}
+
+.menu-btn__bar::after {
+    top: 10px;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+    background: var(--white-text);
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+}

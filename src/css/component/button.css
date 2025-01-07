@@ -1,0 +1,21 @@
+.button {
+    margin-top: 70px;
+    border-radius: 12px;
+    background: var(--carrousel-blue);
+    display: flex;
+    padding: 16px 47px;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button__text {
+    color: var(--white-text);
+    font-family: Lato;
+    font-size: var(--body-3);
+    font-weight: 800;
+    line-height: 160%;
+    text-decoration: none;
+}

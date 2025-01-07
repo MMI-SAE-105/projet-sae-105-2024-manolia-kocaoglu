@@ -1,62 +1,97 @@
 .footer {
-    background-color: var(--caroiusel-blue);
-    color: #ffffff;
+    background-color: var(--footer-blue);
+    color: var(--footer-text);
     padding: 20px;
-    text-align: center;
     font-size: 0.9rem;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .footer__section {
     margin-bottom: 20px;
 }
 
+.footer__header {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: -15px;
+}
+
+.footer__header-title {
+    color: var(--white-text);
+}
+
 .footer__title {
-    font-family: "cinzel";
-    font-size: var(--h3);
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-family: "Frank Ruhl Libre";
+    font-size: var(--body-2);
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 15px;
+}
+
+.footer__link {
+    color: var(--footer-text);
+    font-size: var(--small-text-fowhite-oter);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
 }
 
 .footer__menu,
 .footer__about {
-    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .footer__menu-item,
 .footer__about-item {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    list-style: none;
+    font-family: "Frank Ruhl Libre";
+    font-size: var(--small-text-fowhite-oter);
 }
 
 .footer__menu-item a,
 .footer__about-item a {
     font-family: "Frank Ruhl Libre";
-    font-size: var(--small-text-footer);
-    color: #ffffff;
+    font-size: var(--small-text-fowhite-oter);
+    color: var(--footer-text);
     text-decoration: none;
-    transition: color 0.3s;
 }
 
-.footer__menu-item a:hover,
-.footer__about-item a:hover {
-    color: #0074d9;
-}
+.footer__legal-title {
+    font-size: var(--small-text-fowhite-oter);
+    margin-bottom: 10px;
 
-.footer__legal {
-    border-top: 1px solid #ffffff;
-    padding-top: 10px;
-    margin-top: 10px;
 }
 
 .footer__legal-text {
     margin-bottom: 10px;
+    color: var(--footer-text);
+    font-size: var(--small-text-fowhite-oter);
+    font-family: "Frank Ruhl Libre";
+    font-weight: 700;
+    line-height: 160%;
 }
 
 .footer__credits {
-    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
 }
 
 .footer__credits-item {
-    margin-bottom: 5px;
+    font-size: var(--small-text-fowhite-oter);
+}
+
+.footer__legal-text ::after {
+    content: "";
+    display: block;
+    background-color: var(--white-text);
+    width: 100%;
+    height: 1.5px;
+    margin-top: 10px;
+    padding: 0px;
 }
