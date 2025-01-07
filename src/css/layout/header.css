@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: frank ruhl libre, sans-serif;
+    font-family: var(--Frank);
     font-size: var(h1);
     color: #ffffff;
     background-color: var(--colorbackground-blue);
@@ -13,7 +13,7 @@ body {
 }
 h1 {
     font-size: var(--h1);
-    font-family: cinzel, serif;
+    font-family: var(--Cinzel);
     margin-bottom: 20px;
 }
 

@@ -30,7 +30,7 @@
     text-transform: uppercase;
     font-size: var(--h3);
     display: block;
-    font-family: Cinzel;
+    font-family: var(--Cinzel);
     line-height: 160%;
     font-weight: 700;
     margin-bottom: 20px;

@@ -4,40 +4,41 @@ img {
 }
 
 .carrousel{
-width: 100%;
-}
+  width: 100%;
+} 
 
 .carrousel__controls {
-display: flex;
-gap: 16px;
-align-items: center;
-justify-content: center;
-margin: 16px 0px 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0px 16px;
 }
 
 .carrousel__button {
-background: none;
-border: none;
-box-shadow: none;
-outline: none;
-cursor: pointer;
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
 }
 
 .carrousel__container {
-display: flex; 
-overflow-x: scroll;
-margin: 0 -24px;
-scroll-snap-type: x mandatory;
-margin-top: 50px;
+  display: flex; 
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  margin-top: 50px;
 }
 
 .carrousel__item { 
-margin-left: 12px;
-flex: 0 0 80%;
-scroll-snap-align: center; 
+  margin-left: 12px;
+  flex: 0 0 80%;
+  scroll-snap-align: center; 
 }
 
 .carrousel__item .card {
-display: block;
-  
+  display: block;
+}
+
+.card{
+  width: 90%;
 }

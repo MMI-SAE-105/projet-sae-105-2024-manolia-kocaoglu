@@ -15,13 +15,16 @@
     --true-card-blue: #cbd7fe1c;
   
 
---h1: 36px;
---body-1: 16px;
---h2: 24px;
---body-2: 14px;
---small-text: 11px;
---body-3: 12px;
---small-text-fowhite-oter: 10px;
---h3: 18px;
---button: 12px;
+  --h1: 36px;
+  --body-1: 16px;
+  --h2: 24px;
+  --body-2: 14px;
+  --small-text: 11px;
+  --body-3: 12px;
+  --small-text-fowhite-oter: 10px;
+  --h3: 18px;
+  --button: 12px;
+
+  --Cinzel: 'Cinzel', serif;
+  --Frank: 'Frank Ruhl Libre', sans-serif;
 }
