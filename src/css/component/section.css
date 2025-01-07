@@ -38,6 +38,15 @@
     margin-top: 10px;
 }
 
+.section__video {
+    width: 90%;
+    height: 90%;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
 .section__link {
     color: var(--white-text);
     font-family: var(--Frank);
@@ -59,6 +68,16 @@
 }
 
 .section__img-description {
+    margin-top: 50px;
+    font-family: var(--Frank);
+    font-size: var(--small-text);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    margin: 0px 20px 0px 20px;
+}
+
+.section__video-description {
     margin-top: 50px;
     font-family: var(--Frank);
     font-size: var(--small-text);
