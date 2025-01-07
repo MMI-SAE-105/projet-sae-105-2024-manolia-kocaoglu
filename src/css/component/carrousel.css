@@ -26,7 +26,6 @@ img {
   display: flex; 
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
-  margin-top: 50px;
 }
 
 .carrousel__item { 
@@ -41,4 +40,15 @@ img {
 
 .card{
   width: 90%;
+}
+
+.section__title--discover_carrousel {
+  color: var(--white-text);
+  font-family: var(--Cinzel);
+  font-size: var(--h3);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  margin: 20px;
+  margin-top: 30px;
 }

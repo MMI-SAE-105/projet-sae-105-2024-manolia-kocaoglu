@@ -38,6 +38,26 @@
     margin-top: 10px;
 }
 
+.section__link {
+    color: var(--white-text);
+    font-family: var(--Frank);
+    font-size: var(--body-2);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin: 20px 20px 0px 20px;
+}
+
+.section__link--text {
+    color: var(--white-text);
+    font-family: var(--Frank);
+    font-size: var(--body-2);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-decoration: none;
+}
+
 .section__img-description {
     margin-top: 50px;
     font-family: var(--Frank);
