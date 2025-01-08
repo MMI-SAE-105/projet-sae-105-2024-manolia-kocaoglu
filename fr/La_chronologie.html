@@ -8,13 +8,13 @@
     <script type="module" src="/src/js/script.js"></script>
 </head>
 <body class="page">
-    <img class="background__img background__img--home" src="/assets/img/header_img/headercard.webp" alt="Image de fond">
+    <img class="background__img background__img--home" src="/assets/img/header_img/chronologie.webp" alt="Image de fond">
     <header class="header">
-        <a href="/fr/index.html" class="header__logo">
+        <a class="header__logo" href="/fr/index.html">
             <img src="/assets/img/logos/Logo_depart.svg" alt="Logo de l'épée">
         </a>
         <div class="header__icons">
-            <a href="/en/index.html">
+            <a href="/en/Timeline.html">
                 <img class="header__icon" src="/assets/img/logos/en.svg" alt="Changer la langue">
             </a>
             <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
@@ -56,18 +56,15 @@
             </ul>
         </nav>
     </header>
-    <main class="main">
-        <section class="hero hero--home">
-            <section class="hero__content hero__content--home">
-                <h1 class="hero__title hero__title--home">Au Fil des Lames</h1>
-                <p class="hero__description hero__description--home">
-                Depuis des siècles, l’épée symbolise le pouvoir, l’honneur et le destin. Au Fil des Lames explore son évolution, des récits mythiques aux visions futuristes. Le site analyse les représentations de l’épée dans le cinéma, la littérature et la musique, tout en imaginant ce que pourrait devenir une épée futuriste, transcendée par la technologie, mais préservant son symbolisme.
-                </p>
-                <button class="button button--hero" >
-                    <a class="button__text button__text--hero" href="/fr/La_chronologie.html">L'ÉPÉE DANS LA CHRONOLOGIE</a>
-                </button>
+    <main>
+        <section class="hero hero--pages">
+            <section class="hero__content hero__content--pages">
+                <h1 class="hero__title hero__title--pages">Chronologie</h1>
             </section>
         </section>
+        <div class="section section__timeline">
+            <img src="/assets/img/articles/frise.webp" alt="frise chronologique">
+        </div>
         <section class="section section--discover_carrousel carrousel" aria-labelledby="carrousel-heading">
             <h2 class="section__title section__title--discover_carrousel" id="carrousel-heading">Les lames à travers le temps...</h2>
             <div class="carrousel__container"  role="region" aria-live="polite" >
@@ -110,8 +107,8 @@
             </div>
         </section>
         <section class="section section__card">
-            <h2 class="section__title section__title--home">... Et au futur !</h2>
-            <div class="card card--home" style="background-image: url('/assets/img/carousel/download\ \(12\)\ 1.webp');">
+            <h2 class="section__title section__title--timeline">... Et au futur !</h2>
+            <div class="card card--timeline" style="background-image: url('/assets/img/carousel/download\ \(12\)\ 1.webp');">
                 <h3 class="card__title">La Lame Quantum</h3>
                 <p class="card__description">Une épée futuriste en énergie pure, capable de traverser le temps et de changer de forme, symbolisant la fusion entre technologie et tradition.</p>
                 <a href="#" class="card__button">EN SAVOIR PLUS</a>
@@ -151,6 +148,4 @@
         </div>
     </footer>
 </body>
-</html>
-
-   
+</html>     
