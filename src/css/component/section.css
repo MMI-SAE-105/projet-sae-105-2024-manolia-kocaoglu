@@ -113,3 +113,12 @@
     font-size: var(--body-2);
     font-family: var(--Frank);
 }
+
+.section__precisions--glossary {
+    margin: 0px 20px 50px 20px;
+    font-size: var(--body-2);
+    font-family: var(--Frank);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}

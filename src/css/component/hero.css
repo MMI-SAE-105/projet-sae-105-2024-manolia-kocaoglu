@@ -17,6 +17,13 @@
 
 }
 
+.hero__title--pages-secondary {
+    margin-top: 95px;
+    margin-left: 15px;
+    font-family:  var(--Cinzel);
+    font-style: normal;
+}
+
 .hero__description {
     color: var(--white-text);
     font-size: var(--body-1);
@@ -24,6 +31,12 @@
     font-weight: 400;
     line-height: 160%;
     text-align: left;
+}
+
+.hero__description--pages-secondary {
+    margin: 90px 20px 0 20px;
+    font-family: var(--Frank);
+    line-height: 120%;
 }
 
 .hero__description--home {
