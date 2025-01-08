@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Along the Blades</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <script type="module" src="/src/js/script.js"></script>
+</head>
+<body class="page">
+    <img class="background__img background__img--home" src="/assets/img/header_img/headercard.webp" alt="Background image">
+    <header class="header">
+        <a href="/en/index.html" class="header__logo">
+            <img src="/assets/img/logos/Logo_depart.svg" alt="Sword logo">
+        </a>
+        <div class="header__icons">
+            <a href="/fr/index.html">
+                <img class="header__icon" src="/assets/img/logos/fr.svg" alt="Change language">
+            </a>
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar" aria-hidden="true"></span>
+            </button>
+        </div>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/Swords.html">Swords</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/Timeline.html">Timeline</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/Game_of_Thrones.html">Game of Thrones</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/The_Lord_of_The_Rings.html">The Lord of the Rings</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/John_Boorman_and_Excalibur.html">John Boorman and Excalibur</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/Lorne_Balfe_and_his_composition.html">Lorne Balfe and his Composition</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/">Quantum Blade</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/Glossary.html">Glossary</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/About.html">About</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="/en/Other_projects.html">Other Projects</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="hero hero--home">
+            <section class="hero__content hero__content--home">
+                <h1 class="hero__title hero__title--home">Along the Blades</h1>
+                <p class="hero__description hero__description--home">
+                    For centuries, the sword has symbolized power, honor, and destiny. Along the Blades explores its evolution, from mythical tales to futuristic visions. The site analyzes sword representations in cinema, literature, and music, while also imagining what a futuristic sword could become—transformed by technology yet preserving its symbolism.
+                </p>
+                <button class="button button--hero" >
+                    <a class="button__text button__text--hero" href="/en/Timeline.html">THE SWOR'D TIMELINE</a>
+                </button>
+            </section>
+        </section>
+        <section class="section section--discover_carrousel carrousel" aria-labelledby="carrousel-heading">
+            <h2 class="section__title section__title--discover_carrousel" id="carrousel-heading">The blades Through time...</h2>
+            <div class="carrousel__container"  role="region" aria-live="polite" >
+                <div class="carrousel__item">
+                    <div class="card card--carrousel" style="background-image: url('/assets/img/carousel/download\ \(8\)\ 1.webp');">
+                        <h3 class="card__title card__title--carrousel">Through Game of Thrones</h3>
+                        <p class="card__description card__description--carrousel">Discover how legendary swords like Ice and Longclaw embody honor, lineage, and destiny in this epic saga.</p>
+                        <a href="/en/Game_of_Thrones.html" class="card__button card__button--carrousel">Learn more</a>
+                    </div>
+                </div>
+                <div class="carrousel__item">
+                    <div class="card card--carrousel" style="background-image: url('/assets/img/carousel/download\ \(9\)\ 1.webp');">
+                        <h3 class="card__title card__title--carrousel">Through The Lord of the Rings</h3>
+                        <p class="card__description card__description--carrousel">Discover how Andúril, Aragorn's legendary sword, symbolizes royalty, destiny, and the fight against darkness.</p>
+                        <a href="/en/The_Lord_of_The_Rings.html" class="card__button card__button--carrousel">Learn more</a>
+                    </div>
+                </div>
+                <div class="carrousel__item">
+                    <div class="card card--carrousel" style="background-image: url('/assets/img/carousel/download\ \(10\)\ 1.webp');">
+                        <h3 class="card__title card__title--carrousel">Through John Boorman</h3>
+                        <p class="card__description card__description--carrousel">Discover John Boorman's vision with Excalibur, where the sword embodies power and royalty in a heroic quest.</p>
+                        <a href="/en/John_Boorman_and_Excalibur.html" class="card__button card__button--carrousel">Learn more</a>
+                    </div>
+                </div>
+                <div class="carrousel__item">
+                    <div class="card card--carrousel" style="background-image: url('/assets/img/carousel/download\ \(11\)\ 1.webp');">
+                        <h3 class="card__title card__title--carrousel">Through Lorne Balfe</h3>
+                        <p class="card__description card__description--carrousel">Dive into the musical universe of Assassin's Creed, where Lorne Balfe's music magnifies the symbolism of the sword and the quest for freedom.</p>
+                        <a href="/en/Lorne_Balfe_and_his_composition.html" class="card__button card__button--carrousel">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carrousel__controls">
+                <button class="carrousel__button carrousel__button--prev" aria-label="Scroll left">
+                    <img src="/assets/img/logos/arrow2.svg" alt="left arrow" />
+                </button>
+                <button class="carrousel__button carrousel__button--next" aria-label="Scroll right">
+                    <img src="/assets/img/logos/arrow1.svg" alt="right arrow" />
+                </button>
+            </div>
+        </section>
+        <section class="section section__card">
+            <h2 class="section__title section__title--home">... And into the future!</h2>
+            <div class="card" style="background-image: url('/assets/img/carousel/download\ \(12\)\ 1.webp');">
+                <h3 class="card__title">Quantum Blade</h3>
+                <p class="card__description">A futuristic sword of pure energy, capable of traversing time and changing shape, symbolizing the fusion of technology and tradition.</p>
+                <a href="#" class="card__button">LEARN MORE</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__section">
+            <div class="footer__header">
+                <img class="footer__header-logo" src="/assets/img/logos/Logo_depart.svg" alt="Sword logo">
+                <h2 class="footer__header-title">Along the Blades</h2>
+            </div>
+            <h2 class="footer__title">Menu</h2>
+            <ul>
+                <li class="footer__menu-item"><a href="/en/Swords.html">Swords</a></li>
+                <li class="footer__menu-item"><a href="/en/Game_of_Thrones.html">Game of Thrones</a></li>
+                <li class="footer__menu-item"><a href="/en/The_Lord_of_The_Rings.html">The Lord of the Rings</a></li>
+                <li class="footer__menu-item"><a href="/en/John_Boorman_and_Excalibur.html">John Boorman and Excalibur</a></li>
+                <li class="footer__menu-item"><a href="/en/Lorne_Balfe_et_sa_composition.html">Lorne Balfe and his Composition</a></li>
+                <li class="footer__menu-item"><a href="/">The Quantum Blade</a></li>
+                <li class="footer__menu-item"><a href="/en/Glossary.html">Glossary</a></li>
+            </ul>
+        </div>
+        <div class="footer__section footer__about">
+            <h2 class="footer__title">About</h2>
+            <ul>
+                <li class="footer__about-item"><a href="/en/About.html">Contact</a></li>
+            </ul>
+            <div class="footer__legal">
+                <p class="footer__legal-title">Legal Notice:</p>
+                <p class="footer__legal-text">Project carried out in 2024 as part of an educational exercise at the <a class="footer__link" href="https://blogdummi.fr/">MMI department of Montbéliard</a></p>
+            </div>
+        </div>
+        <div class="footer__section footer__credits">
+            <p class="footer__credits-item">Manolia Kocaoglu B2</p>
+            <p class="footer__credits-item">manolia.kocaoglu@edu.univ-fcomte.fr</p>
+        </div>
+    </footer>
+</body>
+</html>
