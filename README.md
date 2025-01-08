@@ -7,4 +7,5 @@
 - PRÉNOM : manolia
 - GROUPE : b2
 - URL du site : https://stellular-gumdrop-b6d0e1.netlify.app
-- URL FIGMA :
+                https://au-fil-des-lames.manolia-kocaoglu.fr
+- URL FIGMA : https://www.figma.com/design/tE8OG3dtLAnoTAkYbtLJ77/Maquettes-projet-individuel-%E2%80%94-Manolia-Kocaoglu?node-id=3705-130&t=XHEHyCL0ugPVnEt8-1
