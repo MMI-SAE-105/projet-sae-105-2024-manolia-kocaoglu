@@ -9,7 +9,7 @@
 
 .section__title {
     color: var(--white-text);
-    font-family: "Cinzel";
+    font-family: var(--Cinzel);
     font-size: var(--h3);
     font-style: normal;
     font-weight: 700;
@@ -122,3 +122,56 @@
     font-weight: 400;
     line-height: 160%;
 }
+
+.section--about {
+    margin-top: 130px;
+}
+
+.section__text--about {
+    margin: 0px 20px 50px 20px;
+    font-size: var(--body-1);
+    font-family: var(--Frank);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.section--contact {
+    background-color: var(--contact-form);
+    padding: 30px;
+    margin: 0px 20px 50px 20px;
+}
+
+.section__title--contact {
+    font-size: var(--h2);
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+.section__item--contact {
+    color: var(--footer-text);
+    font-size: var(--small-text);
+    font-family: var(--Frank);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    margin: 0px;
+    margin-bottom: 25px;
+    background-color: var(--colorbackground-blue);
+    padding: 5px;
+}
+
+.section__item-message--contact {
+    color: var(--footer-text);
+    font-size: var(--small-text);
+    font-family: var(--Frank);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    margin: 0px;
+    margin-bottom: 25px;
+    background-color: var(--colorbackground-blue);
+    padding: 5px;
+    padding-bottom: 120px;
+}
+
