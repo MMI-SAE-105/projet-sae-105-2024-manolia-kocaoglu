@@ -7,7 +7,7 @@
     font-weight: 400;
     line-height: 160%;
     text-decoration-line: underline;
-    margin: 0px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
 }
 
 .project__img {
@@ -26,6 +26,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
-    margin: 10px 20px 60px auto;
+    margin: 10px 20px 40px auto;
     text-align: right;
 }
