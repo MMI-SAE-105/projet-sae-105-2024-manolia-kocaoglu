@@ -195,3 +195,60 @@
     text-align: center;
 }
 
+.form--contact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+  
+  /* Les labels restent dans le DOM pour l'accessibilité,
+     mais sont masqués visuellement puisque tu as les placeholders */
+  .form__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  
+  .form__input {
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--footer-text);
+    font-family: var(--Frank);
+    font-size: var(--small-text);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    background-color: var(--colorbackground-blue);
+    border: none;
+    padding: 5px;
+    margin: 0;
+  }
+  
+  .form__input::placeholder {
+    color: var(--footer-text);
+    opacity: 1;
+  }
+  
+  .form__input:focus {
+    outline: 2px solid var(--white-text);
+    outline-offset: 2px;
+  }
+  
+  .form__input--message {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .button--contact {
+    cursor: pointer;
+  }
+
+  
