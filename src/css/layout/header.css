@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+p, h1, h2, h3, h4, h5, h6, a, button, li, dt, dd, blockquote, cite, q, abbr, figcaption, label, input, select, textarea, caption{
+    background-color: transparent;
+  }
 
 body {
     font-family: var(--Frank);
